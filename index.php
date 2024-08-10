@@ -1,37 +1,23 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<?php 
 
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+/**
+ * This main template file
+ * 
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * 
+ * @package WCT One
+ */
 
-<body <?php body_class(); ?>>
-    <div id="page" class="site">
-        <header>
-            <section class="serach">{{Search}}</section>
-            <section class="top-bar">
-                <div class="brand">{{Logo}}</div>
-                <div class="secound-column">
-                    <div class="account">{{Account}}</div>
-                    <nav class="main-menu">{{Menu}}</nav>
-                </div>
-            </section>
-        </header>
-        <div class="content-area">
-            <main>
-                <section class="slider"></section>
-                <section class="popular-products">{{Popular Products}}</section>
-                <section class="new-arrivals">{{New Arrivals}}</section>
-                <section class="deal-of-the-week">{{Deal of the Week}}</section>
-                <section class="wct-blog">{{News}}</section>
-            </main>
-        </div>
-        <footer>
-            <section class="footer-widgets">{{Footer Widgets}}</section>
-            <section class="copyright">{{Copyright}}</section>
-        </footer>
-    </div>
-</body>
+get_header(); ?>
 
-</html>
+<div class="content-area">
+    <main>
+        <section class="slider"></section>
+        <section class="popular-products">{{Popular Products}}</section>
+        <section class="new-arrivals">{{New Arrivals}}</section>
+        <section class="deal-of-the-week">{{Deal of the Week}}</section>
+        <section class="wct-blog">{{News}}</section>
+    </main>
+</div>
+
+<?php get_footer(); ?>
