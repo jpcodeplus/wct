@@ -26,11 +26,13 @@ add_action('wp_enqueue_scripts', 'wct_one_scripts');
 
 
 
-function wct_one_config() {
-
-    register_nav_menus( array(
-        'wtc_one_main_menu' => 'Main Menu'
-    ) );
+function wct_one_config()
+{
+    // Einbinden der Menüs
+    register_nav_menus(array(
+        'wtc_one_main_menu' => 'Main Menu',
+        'wtc_one_footer_menu' => 'Footer Menu',
+    ));
 }
 
 add_action('after_setup_theme', 'wct_one_config', 0);
