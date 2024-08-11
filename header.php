@@ -22,7 +22,7 @@
 <body <?php body_class(); ?>>
     <div id="page" class="site">
         <header>
-            <section class="serach">{{Search}}</section>
+            <section class="serach bg-gray-200">{{Search}}</section>
             <section class="top-bar">
                 <div class="brand">{{Logo}}</div>
                 <div class="secound-column">
