@@ -26,9 +26,18 @@
 
             <section class="top-bar flex bg-gray-200">
                 <div class="brand">{{Logo}}</div>
-                <div class="secound-column flex">
+                <div class="secound-column flex flex-col">
                     <div class="account">{{Account}}</div>
-                    <nav class="main-menu">{{Menu}}</nav>
+
+                    <?php wp_nav_menu(
+                        array(
+                            'container' => 'nav',
+                            'container_class' => 'main-menu',
+                            'menu_class'           => 'menu-items flex gap-2',
+                            'theme_location' => 'wtc_one_main_menu'
+                        )
+                    ); ?>
+
                 </div>
             </section>
         </header>
