@@ -20,12 +20,13 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div id="page" class="site">
+    <div id="page" class="site flex flex-col">
         <header>
-            <section class="serach bg-gray-200">{{Search}}</section>
-            <section class="top-bar">
+            <section class="serach bg-gray-100">{{Search}}</section>
+
+            <section class="top-bar flex bg-gray-200">
                 <div class="brand">{{Logo}}</div>
-                <div class="secound-column">
+                <div class="secound-column flex">
                     <div class="account">{{Account}}</div>
                     <nav class="main-menu">{{Menu}}</nav>
                 </div>

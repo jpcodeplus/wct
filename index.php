@@ -10,7 +10,7 @@
 
 get_header(); ?>
 
-<div class="content-area">
+<div class="content-area grow">
     <main>
         <section class="slider">{{Slider}}</section>
         <section class="popular-products">{{Popular Products}}</section>

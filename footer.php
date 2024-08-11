@@ -9,7 +9,7 @@
  */
 ?>
 
-<footer>
+<footer class="bg-gray-600">
     <section class="footer-widgets">{{Footer Widgets}}</section>
     <section class="copyright">{{Copyright}}</section>
 </footer>
