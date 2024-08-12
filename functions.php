@@ -8,6 +8,9 @@
  * @package WCT One
  */
 
+ require __DIR__ . '/wct/functions.php';
+
+
 function wct_one_scripts()
 {
     // Einbinden eines Javascripts
