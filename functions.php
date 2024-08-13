@@ -8,7 +8,7 @@
  * @package WCT One
  */
 
- require __DIR__ . '/wct/functions.php';
+require __DIR__ . '/wct/functions.php';
 
 
 function wct_one_scripts()
@@ -36,6 +36,8 @@ function wct_one_config()
         'wtc_one_main_menu' => 'Main Menu',
         'wtc_one_footer_menu' => 'Footer Menu',
     ));
+
+    add_theme_support('woocommerce');
 }
 
 add_action('after_setup_theme', 'wct_one_config', 0);
