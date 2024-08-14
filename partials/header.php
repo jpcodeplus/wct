@@ -21,10 +21,10 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site flex flex-col">
-        <header>
-            <section class="serach bg-gray-100">{{Search}}</section>
+        <header class="bg-gray-200">
+            <section class="serach bg-gray-100 wct-screen">{{Search}}</section>
 
-            <section class="top-bar flex bg-gray-200">
+            <section class="top-bar flex bg-gray-200 wct-screen">
                 <div class="brand">{{Logo}}</div>
                 <div class="secound-column flex flex-col">
                     <div class="account">{{Account}}</div>

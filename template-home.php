@@ -7,7 +7,7 @@ wct_get_header();
 ?>
 
 <div class="content-area grow">
-    <main>
+    <main class="wct-screen">
         <section class="slider">{{Slider}}</section>
         <section class="popular-products">{{Popular Products}}</section>
         <section class="new-arrivals">{{New Arrivals}}</section>

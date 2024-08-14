@@ -5,6 +5,7 @@
  *
  * @return string Die URL des Beitragsbildes oder des Standardbildes.
  */
+
 function get_thumbnail_url(): string
 {
     return has_post_thumbnail()

@@ -13,14 +13,12 @@
 ?>
 
 <div class="content-area grow">
-    <main>
+    <main class="wct-screen">
         <section class="slider">{{Slider}}</section>
         <section class="popular-products">{{Popular Products}}</section>
         <section class="new-arrivals">{{New Arrivals}}</section>
         <section class="deal-of-the-week">{{Deal of the Week}}</section>
-
         <?php wct_blog_list(); ?>
-
     </main>
 </div>
 
